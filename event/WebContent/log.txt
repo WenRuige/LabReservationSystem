@@ -1,0 +1,36 @@
+开发日志
+数据库名称：lab
+
+user表
+id   int 
+name  varchar(30)
+email  varchar(20)
+password varchar(30)
+time  datetime
+role tinyint 权限位
+
+notice 公告表
+id   int 
+title varchar(50)
+content text
+time
+
+实验室表
+
+room
+id
+name
+address 
+
+
+
+此处还需要有一个表来存储
+arrangement 
+
+name  address 
+
+
+
+
+view 
+    姓名 地点    时间  
